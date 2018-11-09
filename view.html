@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Homework Assignment 2</title>
+	<script src="./controller.js"></script>
+	<script src="./model.js"></script>
+	<script src="./data.js"></script>
+	<link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+
+<body>
+	<div class="container">
+		
+		<div id="top">
+			<div id="top-content">
+				<label>Last Name : </label>
+				<input type="text" id="last_name" placeholder="Search here.....">
+				<button type="button" onclick="searchStudent()">Search</button>
+			</div>
+		</div>
+
+		<div id="left">
+			<div id="left-content"><b>Students Found : </b>
+				<ul id="studentList">
+
+				</ul>
+		</div>
+	</div>
+
+		<div id="right">
+			<label id="studentlabel"></label></br></br>
+			<table id="table_1" cellpadding="5">
+				<thead>
+					<tr>
+						<th>Course</th>
+						<th>GPA</th>
+					</tr>
+				</thead>
+				<tbody id="tableBody">
+				</tbody>
+
+			</table>
+	</div>
+
+	</div>
+
+</body>
+
+</html>
